@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OPACITY</title>
+
+    <style>
+        .mainDiv {
+            display: inline-block;
+            width: 200px;
+            height: 200px;
+            text-align: center;
+            color: red;
+        }
+
+        .div1 {
+            background-color: rgb(0,35,102);
+            padding: 50px;
+        }
+
+        .div2 {
+            background-color: rgb(0, 35, 102);
+            opacity: .75;
+            padding: 50px;
+        }
+
+        .div3 {
+            background-color: rgba(0, 35, 102, .5);
+            padding: 50px;
+        }
+
+        .div3 {
+            background-color: rgba(0, 35, 102, .25);
+        }
+
+        
+
+    </style>
+
+</head>
+<body>
+    <h1>opacity example 2</h1>
+    <p>
+        opacity can apply by different method, like in div2 --> opacity applied, its effect also parent element as well 
+        in div3 opacity applied through rgba that only applied on that element which has been applied
+        opacity will not apply on child element , in mianDiv red color applied and in child div blue background-color 
+        applied when rgba tag used , opacity only applied on the div color not on mianDiv color  
+    </p>
+
+    <div class= "mainDiv">
+        <div class= "div1">
+            100 % opacity
+        </div>
+    </div>
+
+    <div class= "mainDiv">
+        <div class= "div2">
+            75 % opacity
+        </div>
+    </div>
+
+    <div class= "mainDiv">
+        <div class= "div3">
+            50 % opacity
+        </div>
+    </div>
+
+    <div class= "mainDiv">
+        <div class= "div4">
+            25 % opacity
+        </div>
+    </div>
+
+    <div class= "mainDiv">
+        <div class= "div5">
+            0 % opacity
+        </div>
+    </div>
+
+</body>
+</html>

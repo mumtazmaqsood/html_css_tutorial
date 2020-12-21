@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <hr />
+    <h1> This is example of hr tage upper text</h1>
+    <hr />
+    <p> This is example of hr tage lower text</p>
+    <hr />
+    <p>It is example of <em>emphasis</em> tage</p>
+
+    <blockquote cite="test">
+        <p>it is example of /blockquote</p>
+    </blockquote>
+
+    <abbr title="Doctor">Dr.</abbr> Arif Alavi has is the presediant of Pakistan
+
+    <address>
+        <p><a href="mumtaz.maqsood@yahoo.com">Email me</a></p>
+        <p>Høje Gladsaxe 33, 14 Th</p>
+    </address>
+
+    <cite>Autor name</cite> univerise is round 
+    <p><def>Defination</def> of HTML is hypertext markup language</p>
+
+    <del>HTML 4</del> replaced by <ins>HTML 5</ins>
+    <P> 
+       <S> 500 KR</S>
+       <p>
+           400 kr
+       </p>
+    </P>
+
+    <ol>
+        <li>Cophagen</li>
+        <li>Arhus</li>
+        <li>Odense</li>
+        <li>Sonderborg</li>
+    </ol>
+
+    <ul>
+        <li>Cophagen</li>
+        <li>Arhus</li>
+        <li>Odense</li>
+        <li>Sonderborg</li>
+    </ul>
+    
+    <!--Defination list , dl-> defination list, dt-> defination term, dd-> defination data-->
+    <dl>
+        <strong><dt>HTML</dt></strong>
+        <dd>Hypertext Markup language</dd>
+        <dt>JS</dt>
+        <dd>Java Script is a language used to handle behaviour of the page</dd>
+        <dd>JS used both client as well as in server side</dd>
+    </dl>
+
+
+
+    <strong><a href="mailto:mumtaz.maqsood@yahoo.com">mail to</a></strong>
+
+
+    <figure>
+        <p>
+            <img src="" alt="fake image" />
+            <figcaption>
+                This is the caption of the fake image
+            </figcaption>
+        </p>
+    </figure>
+
+
+    <hr />
+    <h1>Table Example</h1>
+
+    <table border="2" bgcolor="grey" cellpadding="10" cellspacing="2">
+        <thead>
+            <tr>
+                <th>Products</th>
+                <th>Price</th>
+                <th>Discuont</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Hard Disk</th>
+                <td colspan="2">5000</td>
+                <td>20%</td>
+                
+            </tr>
+            <tr>
+                <th>RAM</th>
+                <td >1000</td>
+                <td>20%</td>
+                <td>in shop</td>
+            </tr>
+
+            <tr>
+                <th>Processor</th>
+                <td >8000</td>
+                <td>10%</td>
+                <td>NA</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="4">This is the footer</td>
+            </tr>
+        </tfoot>
+    </table>
+
+
+    <form action="http://example.com/login.php" method="GET">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <p>fieldset use to group form elements and legend tag use to give caption</p>
+            <p> Fist Name
+                <input type="text" name="firstname" size="15" maxlength="30" required />          
+                Last Name
+                <input type="text" name="lastname" size="15" maxlength="30" />
+            </p>
+            <p>
+                Password
+                <input type="password" name="password" size="15" maxlength="30" />
+            </p>
+            <p>
+                Re-enter password
+                <input type="password" name="password" size="15" maxlength="30" />
+            </p>
+            <p>
+                <input id="male" type="radio" name="gender" value="m" />
+            <label for="male">male</label>
+                <label><input type="radio" name= "gender" value="f" checked/> female </label>
+            </p>
+            <p>
+                Date of Birth: <input type="date" name="data" />
+            </p>
+            <p>
+                Enter you Email
+                <input type="email" name="email" />
+            </p>
+            <p>Enter your url
+                <input type="url" name="profile" />
+            </p>
+
+        </fieldset>
+       
+        <p>
+            Interests:
+            <br />
+            <input type="checkbox" name="interests" value="men" /> Man's Clothing
+            <input type="checkbox" name="interests" value="wom" /> Women's Clothing
+            <input type="checkbox" name="interests" value="child" /> Child Clothing
+            <input type="checkbox" name="interests" value="fashion" /> Fashion
+        </p>
+        <p>
+            Nationality:
+            <select name="countries" id="counties" multiple >
+                <option value="pakistan">Pakistan</option>
+                <option value="denmark">Denmark</option>
+                <option value="sweden">Sweden</option>
+                <option value="norway">Norway</option>
+                <option value="hungry">Hungry</option>
+                <option value="germany">Germany</option>
+                <option value="itlay">Itlay</option>
+                <option value="france">France</option>
+            </select>
+        </p>
+        <p>
+            <textarea name="comments" id="comments" cols="30" rows="10">Enter your comments here ...
+            </textarea>
+        </p>
+        <p>
+            <input type="file" name="dp" />
+            <br />
+            <input type="submit" value="upload">
+        </p>
+        <p>
+            <input type="submit">
+        </p>
+
+    </form>
+
+</body>
+</html>
+
+
+

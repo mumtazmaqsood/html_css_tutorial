@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      div > p {
+        color: midnightblue;
+        }
+    ol > li {
+        color: orange;
+    }
+    
+    tr > th {
+        color: lightgray;
+        background-color: orchid;
+    }
+    </style>
+</head>
+<body>
+    <h1>Child Selector CSS</h1>
+    <div>
+        <p> <br />
+        Child Selector (>)
+        Through child selector , we can apply style on the specific child element but its should be directly child of the parent , otherwise rule will not apply
+        </p>
+    </div>
+    <h2>University Courses</h2>
+    <br />
+    <div><p>
+        1) Cloud Native Computing
+    </div></p>
+    
+    <div><p>
+        2) Artifical Inteligence
+    </div></p>
+    <p>
+        3) Block Chain
+    </p>
+    <p>
+        4) Internet Of Things
+    </p>
+
+    <table border="2" width="800">
+        <tr>
+            <th>S.No</th>
+            <th>Name</th>
+            <th>Roll No</th>
+            <th>Courses</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Ali</td>
+            <td>PIAIC001</td>
+            <td>
+                <ol>
+                    <li>Artifical Intelligence</li>
+                    <li>Blockchain</li>
+                    <li>Cloud Native Computing</li>
+                    <li>Inernet of Things</li>
+                </ol>
+            </td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Hassan</td>
+            <td>PIAIC002</td>
+            <td>
+                <ol>
+                    <li>Artifical Intelligence</li>
+                    <li>Blockchain</li>
+                </ol>
+            </td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Shahbaz</td>
+            <td>PIAIC003</td>
+            <td>
+                <ol>
+                    <li>Artifical Intelligence</li>
+                    <li>Inernet of Things</li>
+                </ol>
+            </td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>Zanib</td>
+            <td>PIAIC004</td>
+            <td>
+                <ol>
+                    <li>Blockchain</li>
+                    <li>Cloud Native Computing</li>
+                    <li>Inernet of Things</li>
+                </ol>
+            </td>
+        </tr>
+
+        <tr>
+            <td>5</td>
+            <td>Afnan</td>
+            <td>PIAIC005</td>
+            <td>
+                <ol>
+                    <li>Artifical Intelligence</li>
+                    <li>Blockchain</li>
+                    <li>Cloud Native Computing</li>
+                    <li>Inernet of Things</li>
+                </ol>
+            </td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
