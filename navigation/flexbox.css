@@ -1,0 +1,16 @@
+ul {
+    list-style-type: none;
+    border: 3px solid lightblue;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+}
+
+nav li {
+    border: 3px solid lightcoral;
+    margin: 2px;
+    background-color: lightseagreen;
+    flex-basis: 10%;
+}

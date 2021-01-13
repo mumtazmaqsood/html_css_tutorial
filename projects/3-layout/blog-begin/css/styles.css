@@ -1,0 +1,113 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*this wrapper use for display of actual design in 80% of the page*/
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kavivanar', cursive;
+    font-weight: normal;
+}
+h2 {
+    font-size: 2rem;
+    color: #A51F10;
+    margin: 0;
+}
+a {
+    color: #DA0090;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.posted {
+    font-size: 0.8rem;
+    color: #89A611;
+}
+
+section {
+    border-bottom: 3px solid red;
+    margin-bottom: 0.3rem   ;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+    border-top: 3px solid red;
+}
+
+
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+nav ul {
+    list-style-type: none;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    margin:1rem;
+    padding:0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0.5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #73352E;
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+nav a:hover {
+    background-color: black;
+    color: #84de37;
+    text-decoration: none;
+}
+
+
+.floatleft1 {
+    float: left;
+    border-radius: 1rem;
+    margin:1rem 1rem 3rem 0;
+
+}
+
+.floatleft2 {
+    float:left;
+    border-radius: 20px;
+    margin:0 1rem 2rem 0;
+}
+
+
+
+article:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer ul {
+    list-style-type: none;
+    
+    
+}
+
+footer li {
+    display: inline-block;
+}

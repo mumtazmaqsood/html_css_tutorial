@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;  /* it mean when use padding it will apply within box */
+}
+
+
+.main{
+    border: 2px solid red;
+    
+}
+
+.child1{
+    border: 2px solid green;
+    width: 45%; /* means 45% of the main  */
+    float: left;
+}
+.child2{
+    border: 2px solid yellow;
+    width: 55%;
+    float: right;
+}
+
+.child3{
+    border: 2px solid lightblue;
+    width: 13.75%;
+    float:left;
+}
+.child4{
+    border: 2px solid black;
+    width: 13.75%;
+    margin: 50px auto;
+    float:left;
+}
+.child5{
+    border: 2px solid lightblue;
+    background-color: lightcoral;
+    width: 13.75%;
+    float:left;    
+}
+
+.child6{
+    border: 2px solid lightblue;
+    width: 13.75%;
+    margin: 50px auto;
+    background-color: lightcyan;
+    float: left;
+}
+
+/* first method to handle float */
+/* .clearfloat{
+    clear: both;
+}
+ */
+
+ /* 2nd method --> access the main div where all child are displaying */
+
+ .main::after{
+     content: "";
+     display: block;  /* it display to block  */
+     clear: both;
+ }
+
+
+
+.box{
+    clear: both;  /* display this element efter left & right float */
+}

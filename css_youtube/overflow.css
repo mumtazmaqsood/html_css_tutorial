@@ -1,0 +1,32 @@
+/* overflow property used when height has been fixed and text overflow to border 
+or could not handled by browser , we can use overflow: scroll(it create scroll bar) or hidden
+(it hides the text ) */
+
+body{
+    background-color: lightblue;
+    margin: 0;
+}
+
+#main{
+    background-color: #ee55dd;
+    padding:10px;
+    margin:20px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+#main1 {
+    background-color: lightsalmon;
+    padding: 10px;
+    margin:20px;
+    border: red solid 2px;
+    height: 100px;
+    overflow: scroll;
+}
+
+h1 {
+    border: 2px solid red;
+    text-align: center;
+    width: 800px;
+    margin: 10px auto; /* center  */
+}

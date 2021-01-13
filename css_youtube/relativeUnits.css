@@ -1,0 +1,17 @@
+
+
+div{
+    margin-top:20px;
+    border:red solid 2px;
+}
+p{
+    width:10%;
+    border: blue solid 2px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* % applied --> code is above  */
+/* -------------------------------------- */
+
+

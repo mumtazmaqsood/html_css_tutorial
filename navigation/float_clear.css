@@ -5,8 +5,14 @@ body {
 .floatleft {
     float: left;
     /*TRouBLe -> TOP, RIGHT, BOTTOM, LEFT*/
-    margin: 0 1rem 1rem 0;
+    margin: 0 1rem 1rem 1rem;
+    border-radius: 100px;
 }
+
+.floatright {
+    float: right;
+}
+
 
 article {
     width: 30rem;
@@ -17,10 +23,6 @@ article {
     /*auto means calculate how much extra space browser have and divided it with 2 and stick half
     in each side of the box*/
     margin: 0 auto;
-}
-
-.floatright {
-    float: right;
 }
 
 /*when use float clear it with this formula*/

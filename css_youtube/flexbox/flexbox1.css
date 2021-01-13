@@ -1,0 +1,102 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-wrapper{
+    border: 2px solid black;
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+
+    /* flex-wrap:wrap; /* adjust width of the items */ 
+    /* flex-wrap: wrap-reverse; */
+    
+    /* height: 500px;
+    flex-direction: column;
+    flex-wrap: wrap; */
+    /* justify-content: space-evenly; */
+
+
+    /* for flex-direction: row§; */
+    /* top left side */
+    /* flex-direction: row;
+    height: 900px;
+    justify-content: flex-start;
+    align-items: flex-start; */
+
+    /* div in middle of the main div */
+    /* flex-direction: row;
+    height:900px;
+    justify-content: center;
+    align-items: center; */ 
+    
+    /* top right side */
+    /* flex-direction: row;
+    height: 900px;
+    justify-content: flex-end;    //working left to right
+    align-items: flex-start; */    /* working top to bottom */
+    
+
+    /* for colum */
+
+    /* top left */
+    /* flex-direction: column;
+    height: 900px;
+    justify-content: flex-start;   //working top to bottom
+    align-items: flex-start; */    /* working left to right */     
+
+    /* center */
+    /* flex-direction: column;
+    height: 900px;
+    justify-content: center;
+    align-items: center; */
+
+    /* bottom right */
+    /* flex-direction: column;
+    height: 900px;
+    justify-content: flex-end;
+    align-items: flex-end; */
+    /* height: 900px; */
+
+   
+  /*  height: 600px;
+   /* flex-direction: column; 
+   flex-wrap: wrap; 
+   flex-flow: row wrap;   flex-direction + flex-wrap 
+   align-content: center; */
+
+   /* height: 600px;
+   align-items: center;
+   justify-content: space-between; */
+
+   flex-direction: column;   
+   flex-wrap: wrap;
+}
+
+.box {
+    border: 2px solid #666;
+    /* width: 300px; */
+    flex-basis: 300px;
+    
+}
+
+.box-1{
+    background: lightblue;
+}
+
+.box-2{
+    background: lightcoral;
+}
+.box-3{
+    background: lightgreen;
+    /* align-self: flex-start; */
+}
+
+.box-4{
+    background: lightsalmon;
+}
+.box-5{
+    background:lightgrey
+}

@@ -1,0 +1,20 @@
+
+/*notes on note book*/
+h1 {
+    background: green;
+    color:yellow;
+    
+
+}
+
+.div1 {
+    background-color: red;
+    width:50%;
+    float: left;
+}
+
+.div2 {
+    background-color:rosybrown;
+    width: 50%;
+    float: right;
+}
